@@ -31,15 +31,12 @@ The first time you run the script, it will create a desktop shortcut for easy ac
 
 Configuration
 The application can be easily customized by modifying the configuration section at the top of the worktime.py script:
-
-# --- Configuration Section ---
 TIME_ZONE_1 = 'US/Eastern'  # Time zone for the first location
 TIME_ZONE_2 = 'US/Pacific'  # Time zone for the second location
 LABEL_1 = 'EST'  # Label for the first time zone
 LABEL_2 = 'PST'  # Label for the second time zone
 SHORTCUT_NAME = "WorkTime.lnk"  # Name of the shortcut to be created on the desktop
 ICON_PATH = "worktime.ico"  # Path to the icon file (must be .ico format)
-# --- End of Configuration Section ---
 
 TIME_ZONE_1 / TIME_ZONE_2: Set the time zones you want to display and convert between.
 LABEL_1 / LABEL_2: Set the labels for the time zones.
